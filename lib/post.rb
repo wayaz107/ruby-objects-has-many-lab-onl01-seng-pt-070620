@@ -4,11 +4,11 @@ class Post
 def initialize(title)
 @title = title
 @@all << self
-end 
+end
 
 def self.all
   @@all
-end 
+end
 
 
 
