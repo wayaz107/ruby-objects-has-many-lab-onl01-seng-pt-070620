@@ -9,7 +9,7 @@ attr_accessor :name
 end
 
 def self.all
-  @@all? 
+  @@all
 end
 
 def add_post(post)
