@@ -5,13 +5,13 @@ attr_accessor :artist, :name
 @@all = []
 
 def initialize(name)
-  @name = name 
-  @@all << self 
+  @name = name
+  @@all << self
 end
 
 def self.all
   @@all
-end 
+end
 
 def artist_name
 self.artist.name if artist
@@ -25,4 +25,4 @@ end
 
 
 
-end 
+end
