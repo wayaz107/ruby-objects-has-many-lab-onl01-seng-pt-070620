@@ -1,6 +1,5 @@
 class Author
-
-attr attr_accessor :name
+attr_accessor :name
 
 @@all = []
 
@@ -20,7 +19,7 @@ end
 
 def self.post_count
   Post.all.count
-end 
+end
 
 
 
