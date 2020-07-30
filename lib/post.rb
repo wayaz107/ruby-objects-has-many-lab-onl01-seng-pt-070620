@@ -14,6 +14,7 @@ end
 
 def author_name
   self.author.name if author
+end 
 
 
 
